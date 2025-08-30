@@ -248,26 +248,6 @@ DEBUG_MODE = True
 - Progress indicators and status updates
 - Error details and debugging information
 
-### USB Autorun Method
-
-#### Step 1: Prepare USB Drive
-1. Format USB drive with FAT32 or NTFS
-2. Copy `main.py` to USB drive root directory
-3. Ensure Python is installed on target system
-
-#### Step 2: Configure Autorun
-1. Create `autorun.inf` file on USB drive:
-```ini
-[autorun]
-open=pythonw main.py
-icon=main.py
-label=WiFi Security Tool
-```
-
-#### Step 3: Deploy
-1. Insert USB drive into target system
-2. Autorun will execute script automatically
-3. Monitor Discord channel for results
 
 ### Direct Execution Method
 
