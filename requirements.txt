@@ -1,0 +1,5 @@
+# WiFi-Password-Extractor v2.0 - Dependencies
+# Author: Kumarabhijeet1608
+
+requests>=2.28.0
+psutil>=5.9.0
